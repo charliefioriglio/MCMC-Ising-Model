@@ -230,6 +230,7 @@ int main(int argc, char* argv[]) {
     int thermalization_steps = 5000;  // Number of sweeps for thermalization
     int measurement_steps = 10000;    // Number of sweeps for measurement
     
+    // Tests
     // k_B*T = 2
     runSimulation(2.0, thermalization_steps, measurement_steps, 
                   "config_kT2.dat", "data_kT2.dat", rng);
